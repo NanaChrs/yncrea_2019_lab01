@@ -1,9 +1,10 @@
 package yncrea.lab01.controller;
 
+import controller.DrugsServlet;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
-import yncrea.lab01.utils.TestUtils;
+import java.yncrea.lab01.utils.TestUtils;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

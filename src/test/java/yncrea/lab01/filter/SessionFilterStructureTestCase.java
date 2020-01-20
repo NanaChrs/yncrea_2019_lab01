@@ -1,16 +1,16 @@
 package yncrea.lab01.filter;
 
+import filters.SessionFilter;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.JUnit4;
-import yncrea.lab01.utils.TestUtils;
-
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
 import javax.servlet.FilterConfig;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebFilter;
+import java.yncrea.lab01.utils.TestUtils;
 
 import static org.assertj.core.api.StrictAssertions.assertThat;
 

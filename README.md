@@ -28,9 +28,9 @@ If you clone this repo, you will get:
 ## Your mission, should you choose to accept it
 
 * Create several classes
-  * `DrugsServlet` which manage the listing and the storage of the drugs
-  * `LoginServlet` which manage the login phase
-  * `SessionFilter` which handles security
+  * `controller.DrugsServlet` which manage the listing and the storage of the drugs
+  * `controller.LoginServlet` which manage the login phase
+  * `filters.SessionFilter` which handles security
   * `Pharmacist` to represent the user of the application
   * `Drug` to represent the managed drug
 * The provided tests are your guide! Read them to understand what is needed. The *structure tests try to check if your class is correctly built and the *behaviour tests check the qualitfy of your algorithms. Package names and fields are not detailed, the tips are in the tests ;)

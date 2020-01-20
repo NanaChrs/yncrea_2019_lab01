@@ -1,11 +1,12 @@
 package yncrea.lab01.filter;
 
+import filters.SessionFilter;
+import model.Pharmacist;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.powermock.modules.junit4.PowerMockRunner;
-import yncrea.lab01.model.Pharmacist;
 
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
