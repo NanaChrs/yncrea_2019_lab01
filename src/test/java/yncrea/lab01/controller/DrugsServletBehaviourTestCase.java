@@ -1,4 +1,4 @@
-package java.yncrea.lab01.controller;
+package yncrea.lab01.controller;
 
 import controller.DrugsServlet;
 import model.Drug;
@@ -8,7 +8,6 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
 import org.powermock.modules.junit4.PowerMockRunner;
-import yncrea.lab01.model.Drug;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletContext;
@@ -22,7 +21,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;
 import java.util.List;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.StrictAssertions.tuple;
 import static org.mockito.Matchers.anyString;
 import static org.mockito.Matchers.eq;
